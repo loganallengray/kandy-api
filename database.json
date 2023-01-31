@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "yesthatsreallymyname@coldmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "mysterywoman@coldmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "name": "Alexander Grate",
+      "email": "sewagesuckersincorporated@coldmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Hal Morgan",
+      "email": "halmorainemorgan@coldmail.com",
+      "isStaff": false
+    },
+    {
+      "name": "Kelly Manch",
+      "email": "kmanch@coldmail.com",
+      "isStaff": true,
+      "id": 5
+    }
+  ],
+  "customers": [
+    {
+      "userId": 3,
+      "loyaltyNumber": 45123,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "loyaltyNumber": 54321
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1,
+      "locationId": 1,
+      "startDate": "11/26/22",
+      "payRate": 15
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "locationId": 2,
+      "startDate": "1/16/23",
+      "payRate": 12
+    },
+    {
+      "locationId": 1,
+      "startDate": "2023-01-22",
+      "payRate": 8,
+      "userId": 5,
+      "id": 3
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "123 ABC Street",
+      "squareFootage": 456
+    },
+    {
+      "id": 2,
+      "address": "456 DEF Street",
+      "squareFootage": 123
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Scrumbled Bumps",
+      "typeId": 1,
+      "price": 2
+    },
+    {
+      "id": 2,
+      "name": "Wringleboop Flaksnatchers",
+      "typeId": 3,
+      "price": 8
+    },
+    {
+      "id": 3,
+      "name": "Fran Flam",
+      "typeId": 1,
+      "price": 1
+    },
+    {
+      "id": 4,
+      "name": "Whosit",
+      "typeId": 2,
+      "price": 1
+    },
+    {
+      "id": 5,
+      "name": "Ghastly Gordo",
+      "typeId": 3,
+      "price": 15
+    },
+    {
+      "id": 6,
+      "name": "Caramel Whatsit",
+      "typeId": 2,
+      "price": 8
+    },
+    {
+      "name": "Junebug Joubile",
+      "typeId": 1,
+      "price": 5,
+      "id": 7
+    },
+    {
+      "name": "Topped Tallywacks",
+      "typeId": 3,
+      "price": 1,
+      "id": 8
+    },
+    {
+      "name": "Knacked Knickers",
+      "typeId": 1,
+      "price": 10,
+      "id": 9
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate"
+    },
+    {
+      "id": 3,
+      "name": "Gummy"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "amount": 5
+    },
+    {
+      "customerId": 1,
+      "productId": 6,
+      "amount": 1,
+      "id": 2
+    }
+  ]
+}
